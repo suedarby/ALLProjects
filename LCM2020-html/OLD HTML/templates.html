@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css">-->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <title>Title</title>
+</head>
+
+<body>
+    <!--FIXED to top Navbar-->
+
+    <!-- **************************need css for color instead of dark navbar-color-->
+    <!--Template Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Template Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.php">News</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Log In</a>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                        <div class="dropdown-divider">Divider</div>
+                        <a class="dropdown-item" href="#">Dash</a>
+                        <a class="dropdown-item" href="#">Projects</a>
+                        <a class="dropdown-item" href="#">Reports</a>
+                        <div class="dropdown-divider">Category</div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Action</a>
+                    </div>
+                </li>
+
+            </ul>
+            <div>
+                <form class="form-inline my-3 my-lg-4">
+                    <input class="form-control mr-sm-4" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <button class="btn btn-success my-3 my-sm-4" type="submit">Search</button>
+            </form>
+
+        </div>-->
+        <!--Login buttons-->
+
+        <!--******************************************needs css for color for login & log out-->
+        <section>
+            <div class="container btn-group d-flex align-items-end" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-primary">Login</button>
+                <button type="button" class="btn btn-secondary">Logout</button>
+            </div>
+        </section>
+    </nav>-->
+    <!--END NAV template-->
+
+    <!--div needs margin/padding equal to 4 breaks-->
+    <div><br><br><br><br><br></div>
+
+    <!--LCM Navbar-->
+    <!--  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">LCM Nav Bar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.php">News</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Log In</a>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                        <div class="dropdown-divider">Divider</div>
+                        <a class="dropdown-item" href="#">Dash</a>
+                        <a class="dropdown-item" href="#">Projects</a>
+                        <a class="dropdown-item" href="#">Reports</a>
+                        <div class="dropdown-divider">Category</div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Action</a>
+                    </div>
+                </li>
+
+            </ul>
+            <div>
+                <form class="form-inline my-3 my-lg-4">
+                    <input class="form-control mr-sm-4" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <button class="btn btn-success my-3 my-sm-4" type="submit">Search</button>
+            </form>
+
+        </div>
+    </nav>-->
+    <!--LCM Navbar end-->
+    <!-- <div class="top-padding"><br><br><br><br><br></div>-->
+
+
+    <!--Learning Nav Bar-->
+    <!--   <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Learning Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.php">News</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Log In</a>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                        <div class="dropdown-divider">Divider</div>
+                        <a class="dropdown-item" href="#">Dash</a>
+                        <a class="dropdown-item" href="#">Projects</a>
+                        <a class="dropdown-item" href="#">Reports</a>
+                        <div class="dropdown-divider">Category</div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Action</a>
+                    </div>
+                </li>
+
+            </ul>
+            <div>
+                <form class="form-inline my-3 my-lg-4">
+                    <input class="form-control mr-sm-4" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <button class="btn btn-success my-3 my-sm-4" type="submit">Search</button>
+            </form>
+
+        </div>
+    </nav>
+
+    <div class="top-padding"><br><br><br><br><br></div>-->
+
+    <!--Sewing app Navbar-->
+    <!--  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Template Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.php">News</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Log In</a>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                        <div class="dropdown-divider">Divider</div>
+                        <a class="dropdown-item" href="#">Dash</a>
+                        <a class="dropdown-item" href="#">Projects</a>
+                        <a class="dropdown-item" href="#">Reports</a>
+                        <div class="dropdown-divider">Category</div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Action</a>
+                    </div>
+                </li>
+
+            </ul>
+            <div>
+                <form class="form-inline my-3 my-lg-4">
+                    <input class="form-control mr-sm-4" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <button class="btn btn-success my-3 my-sm-4" type="submit">Search</button>
+            </form>
+
+        </div>-->
+    <!--Login buttons-->
+
+    <!--******************************************needs css for color for login & log out-->
+    <!--        <section>
+            <div class="container btn-group d-flex align-items-end" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-primary">Login</button>
+                <button type="button" class="btn btn-secondary">Logout</button>
+            </div>
+        </section>
+    </nav>-->
+    <!--END Sewing App template-->
+
+    <!--   <div class="top-padding"><br><br><br><br><br></div>-->
+
+    <!--*******ALL PAGES NEED EVERYTHING ABOVE HERE For each site choose Nav Bar carefully*********-->
+
+
+    <!--+++++++MODAL IS ONLY FOR PROJECT, FABRIC, NOTIONS ETC DATA ENTRY PAGES SHOULD SAVE TO DATABASE+++++-->
+
+    <!--MODAL for Data Entry for Sewing App CAN MOVE BUTTONS TO OTHER LOCATIONS-->
+
+    <!--*************************needs css for colors******************-->
+
+    <!--*************************needs custom forms**********************-->
+
+    <div>
+        <!--MODAL BUTTONS START-->
+
+        <!-- 
+         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+            data-whatever="@mdo">Open modal for @mdo</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+            data-whatever="@fat">Open modal for @fat</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+            data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+        -->
+
+        <!--MODAL BUTTONS END-->
+
+
+        <!--++++++++++++++++++++++++THIS PART OF MODAL STAYS HERE++++++++++++++++++++++-->
+
+        <!--MODAL #2-->
+
+        <!--**********************CHANGE ID NAME FOR MODAL AND BUTTON TO MATCH-->
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel2">OPEN INPUT FORM</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <!--This is where the data entry needs to happen-->
+
+                    <div class="modal-body">
+                        <p>MODAL 2</p>
+                        <p>Project:</p>
+                        <p> Pattern:</p>
+                        <p> Image:</p>
+                        <p> Fabric:</p>
+                        <p> Notions:</p>
+                        <p> Trims:</p>
+                        <p> Tools:</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal2">Close</button>
+                        <button type="button" class="btn btn-primary">SAVE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END MODAL 2-->
+
+        <!--MODAL 1-->
+
+        <!--**************************CHANGE NAME ID OF MODAL AND BUTTON-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">modal 1 New message</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <!--This is where the data entry needs to happen-->
+
+                    <div class="modal-body">
+                        Project:
+                        Pattern:
+                        Image:
+                        Fabric:
+                        Notions:
+                        Trims:
+                        Tools:
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END MODALS-->
+    </div>
+    <!--**********************************************************************************-->
+
+    <!--START CONTENT BOTH NAV AND MAIN PAGE TOGETHER-->
+    <section class="top-padding">
+        <div class=" container-fluid ">
+
+
+
+            <div class="row ">
+                <!--SIDE NAVIGATION 2 COL-->
+                <div class="col-2">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">long long long link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">link</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--DO NOT CLOSE DIV HERE-->
+
+                <!--single column next to nav of 2-->
+
+                <!--CONTENT DIV START-->
+
+                <div class="col-10">
+                    <h1>Title of table one</h1>
+                    <p> 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley
+                        of
+                        type and scrambled it to make a type specimen book.</p>
+                    <!--MODAL BUTTON #2-->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2"
+                        data-whatever="@mdo">Open modal2 for Table 1
+                    </button>
+
+                    <!--TABLE 1-->
+
+                    <!--Table hover with small-->
+
+                    <table class="table table-hover table-sm">
+                        <thead>
+                            <tr>
+                                <!--TABLE HEADERS GOING ACROSS-->
+
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <!--ROW 1 DATA MATCHES EACH OF THE HEADERS-->
+
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+
+                                <!--ROW 2-->
+
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <!--ROW 3-->
+
+                                <th scope="row">3</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="col-10">
+                        <h1>Title of table TWO</h1>
+                        <p> 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                            took a
+                            galley of type and scrambled it to make a type specimen book.</p>
+                        <!--MODAL BUTTON2-->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@mdo">Open modal for Table 2</button>
+                        <!--END MODAL BUTTON 2-->
+                        <!--Table hover with small-->
+                        <table class="table table-hover table-sm">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">First</th>
+                                    <th scope="col">Last</th>
+                                    <th scope="col">Handle</th>
+                                    <th scope="col">First</th>
+                                    <th scope="col">Last</th>
+                                    <th scope="col">Handle</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                    <td>@mdo</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--END TABLE 2-->
+
+                        <!--New row with 2 col of 5 each to go with nav 2-->
+                        <div class="row">
+                            <div class="col-5">
+                                <!--Card-->
+
+                                <!--********************DARKEN THE BORDER-->
+                                <!--USE CARDS TO DISPLAY PROJECTS IN DIFFERENT STATUS? SET OF TOP 4 CARDS FOR EACH STATUS? PLANNING, IN PROGRESS, STALLED, COMPLETED PROJECTS CAN BE IN BOTH PLANNING AND STALLED OR IN PROGRESS AND STALLED. STALLED IS DUE TO LACK OF SUPPLIES AND SHOULD TRIGGER TO SHOPPING LIST WITH 5.14 FONT AWESOME BOX-->
+                                <!--+*+*+*+*+**+*+*+*+NEEDS SPACE BETWEEN MORE THAN ONE BUTTON-->
+                                <div class="card">
+                                    <img src="..." class="card-img-top" alt="THIS HAS AN IMAGE OF THE PATTERN">
+                                    <div class="card-body">
+                                        <h5 class="card-title">PROJECT STALLED</h5>
+                                        <i class="far fa-square"> SHOPPING</i>
+                                        <i class="far fa-square"> LISTS</i>
+                                        <i class="far fa-square"> FORMATTING</i>
+                                        <i class="far fa-square"> LOOKS LIKE THIS</i>
+                                        <p class="card-text">tHIS PROJECT HAS STALLED AND HAS A SHOPPING LIST</p>
+                                        <a href="#" class="btn btn-primary">PROJECT DETAIL PAGE</a>
+                                        <br><br>
+                                        <a href="#" class="btn btn-primary">SAVE</a>
+                                        <br><br>
+                                        <a href="#" class="btn btn-primary">ADD TO SHOPPING LIST</a>
+                                        <br><br>
+                                        <a href="#" class="btn btn-primary">GO TO SHOPPING LIST</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has
+                                    been
+                                    the
+                                    industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                    and
+                                    scrambled
+                                    it
+                                    to
+                                    make a type specimen
+                                    book.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--Nav 2 col 3-->
+                        <div class="row">
+                            <div class="col-3">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal" data-whatever="@fat">Open
+                                    modal 2</button>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has
+                                    been the
+                                    industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                    and
+                                    scrambled
+                                    it to
+                                    make a type specimen
+                                    book.</p>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make
+                                            up
+                                            the
+                                            bulk of the card's
+                                            content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-3">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has
+                                    been the
+                                    industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                    and
+                                    scrambled
+                                    it to
+                                    make a type specimen
+                                    book.</p>
+                            </div>
+                            <div class="col-3">
+                                <div class="card">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and
+                                            make
+                                            up
+                                            the
+                                            bulk of the card's
+                                            content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--row with 3 columns of 4 each with nav 2-->
+                        <div class="row">
+                            <div class="col-4">
+                                <p> It has survived not only five centuries, but also the leap into electronic
+                                    typesetting,
+                                    remaining essentially
+                                    unchanged.</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has
+                                    been the
+                                    industry's standard
+                                    dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                    and
+                                    scrambled
+                                    it to
+                                    make a type specimen
+                                    book.</p>
+                            </div>
+                            <div class="col-4">
+                                <p> It was popularised in the 1960s with the release of Letraset sheets containing
+                                    Lorem
+                                    Ipsum passages, and more
+                                    recently with desktop publishing software like Aldus PageMaker including
+                                    versions of
+                                    Lorem
+                                    Ipsum.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--back to single column with nav 2-->
+                        <div class="col-12">
+                            <p> 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                Ipsum
+                                has
+                                been
+                                the
+                                industry's standard
+                                dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                scrambled
+                                it
+                                to
+                                make
+                                a type specimen
+                                book.</p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left" type="button"
+                                                data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Collapsible Group Item #1
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                            terry
+                                            richardson ad squid. 3 wolf
+                                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                            quinoa
+                                            nesciunt laborum eiusmod.
+                                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                            single-origin
+                                            coffee nulla assumenda
+                                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                            anderson
+                                            cred nesciunt sapiente ea
+                                            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                            beer
+                                            farm-to-table, raw denim
+                                            aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                            labore
+                                            sustainable VHS.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                Collapsible Group Item #2
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                            terry
+                                            richardson ad squid. 3 wolf
+                                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                            quinoa
+                                            nesciunt laborum eiusmod.
+                                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                            single-origin
+                                            coffee nulla assumenda
+                                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                            anderson
+                                            cred nesciunt sapiente ea
+                                            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                            beer
+                                            farm-to-table, raw denim
+                                            aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                            labore
+                                            sustainable VHS.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Collapsible Group Item #3
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                            terry
+                                            richardson ad squid. 3 wolf
+                                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                            quinoa
+                                            nesciunt laborum eiusmod.
+                                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                            single-origin
+                                            coffee nulla assumenda
+                                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                            anderson
+                                            cred nesciunt sapiente ea
+                                            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                            beer
+                                            farm-to-table, raw denim
+                                            aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                            labore
+                                            sustainable VHS.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Container's Div-->
+                </div>
+    </section>
+    <!--END CONTENT DIV-->
+
+    <!--FOOTER-->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <p> THIS IS THE FOOTER It has survived not only five centuries, but also the leap into
+                        electronic typesetting,
+                        remaining essentially
+                        unchanged.</p>
+                </div>
+                <div class="col-4">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum
+                        has
+                        been the
+                        industry's standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                        scrambled
+                        it to
+                        make a type specimen
+                        book.</p>
+                </div>
+                <div class="col-4">
+                    <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                        Ipsum passages, and more
+                        recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem
+                        Ipsum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js">
+    </script>
+    </div>
+    </div>
+</body>
+
+</html>
