@@ -2,7 +2,7 @@
     <?php define("TITLE", "Sue Darby")?>
     <!--Header-->
     <section class="container">
-        <div> <?php include 'includes/header.php'; ?></div>
+        <div> <?php include 'includes/head.php'; ?></div>
         <!--Top Nav-->
         <?php include 'includes/topnav.php'; ?>
         <!--Share & Export-->

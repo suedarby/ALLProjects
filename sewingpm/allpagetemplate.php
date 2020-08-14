@@ -3,37 +3,37 @@
 <!--HEAD-->
 <?php include 'includes/head.php'; ?>
 
-<head>
+<!--<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
 
-    <title>Project Manager - Dashboard</title>
-    <!--Bootstrap-->
+    <title>Project Manager - Dashboard</title>-->
+<!--Bootstrap
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!--FontAwesome 4 & 5-->
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">-->
+<!--FontAwesome 4 & 5
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
 
-    <!--my CSS-->
+<!--my CSS
 
     <link href="assets/css/sewing.css" rel="stylesheet">
 
     <link href="assets/dist/css/dashboard.css" rel="stylesheet">
 
-</head>
+</head>-->
 
 <body>
 
     <!--TOP NAV-->
     <?php include 'includes/topnav.php'; ?>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="index.html">Sewing Project Manager</a>
+    <!--<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.php">Sewing Project Manager</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,19 +41,19 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="news.html">News</a>
+                    <a class="nav-link" href="news.php">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="sign-in.html" tabindex="-1" aria-disabled="true">Sign In</a>
+                    <a class="nav-link" href="sign-in.php" tabindex="-1" aria-disabled="true">Sign In</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="dash.html" tabindex="-1" aria-disabled="true">Dash</a>
+                    <a class="nav-link" href="dash.php" tabindex="-1" aria-disabled="true">Dash</a>
                 </li>
                 <li class="nav-item">
 
@@ -61,12 +61,12 @@
                     <a class="nav-link dropdown-toggle" href="#" id="dashboard" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Dashboard Navigation</a>
                     <div class="dropdown-menu" aria-labelledby="dashboard">
-                        <a class="dropdown-item" href="projects.html">Projects</a>
-                        <a class="dropdown-item" href="patterns.html">Patterns</a>
-                        <a class="dropdown-item" href="fabric.html">Fabric</a>
-                        <a class="dropdown-item" href="notions.html">Notions</a>
-                        <a class="dropdown-item" href="tools.html">Tools</a>
-                        <a class="dropdown-item" href="shopping.html">Shopping List</a>
+                        <a class="dropdown-item" href="projects.php">Projects</a>
+                        <a class="dropdown-item" href="patterns.php">Patterns</a>
+                        <a class="dropdown-item" href="fabric.php">Fabric</a>
+                        <a class="dropdown-item" href="notions.php">Notions</a>
+                        <a class="dropdown-item" href="tools.php">Tools</a>
+                        <a class="dropdown-item" href="shopping.php">Shopping List</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -74,50 +74,49 @@
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
-    </nav>
-    <!--Body of page-->
+    </nav>-->
 
+    <!--Body of page-->
     <div class="container-fluid">
         <div class="row">
-
             <!--SIDEBAR for dash pages only-->
             <?php include 'includes/sidenav.php'; ?>
-
-            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+            <!--            
+                <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
                 <div class="sidebar-sticky pt-3">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" href="dash.html">
+                            <a class="nav-link active" href="dash.php">
                                 <span data-feather="home"></span>
                                 Dashboard <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="projects.html">
+                            <a class="nav-link" href="projects.php">
                                 <span data-feather="file"></span>
                                 Projects
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="patterns.html">
+                            <a class="nav-link" href="patterns.php">
                                 <span data-feather="award"></span>
                                 Patterns
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="fabric.html">
+                            <a class="nav-link" href="fabric.php">
                                 <span data-feather="layers"></span>
                                 Fabric
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="tools.html">
+                            <a class="nav-link" href="tools.php">
                                 <span data-feather="scissors"></span>
                                 Tools
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shopping.html">
+                            <a class="nav-link" href="shopping.php">
                                 <span data-feather="shopping-cart"></span>
                                 Shopping List
                             </a>
@@ -126,39 +125,39 @@
                     <h6
                         class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                         <span>Saved reports</span>
-                        <a class="d-flex align-items-center text-muted" href="savedreports.html"
+                        <a class="d-flex align-items-center text-muted" href="savedreports.php"
                             aria-label="Add a new report">
                             <span data-feather="plus-circle"></span>
                         </a>
                     </h6>
                     <ul class="nav flex-column mb-2">
                         <li class="nav-item">
-                            <a class="nav-link" href="inprogress.html">
+                            <a class="nav-link" href="inprogress.php">
                                 <span data-feather="file-text"></span>
                                 Projects in Progress
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="stalled.html">
+                            <a class="nav-link" href="stalled.php">
                                 <span data-feather="file-text"></span>
                                 Stalled Projects
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="complete.html">
+                            <a class="nav-link" href="complete.php">
                                 <span data-feather="file-text"></span>
                                 Completed Projects
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="planned.html">
+                            <a class="nav-link" href="planned.php">
                                 <span data-feather="file-text"></span>
                                 Planned Projects
                             </a>
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </nav>-->
             <!--CONTENT AREA-->
             <main role="main" class="dash col-md-9 ml-sm-auto col-lg-10 px-md-4">
                 <div
@@ -166,6 +165,7 @@
                     <h1 class="h2">Projects</h1>
                     <!--SHARE & EXPORT BUTTONS on dash pages only-->
                     <?php include 'includes/shareexport.php'; ?>
+                    <!--
                     <div class="btn-toolbar mb-2 mb-md-0">
                         <div class="btn-group mr-2">
                             <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
@@ -175,7 +175,7 @@
                             <span data-feather="calendar"></span>
                             This week
                         </button>
-                    </div>
+                    </div>-->
                 </div>
                 <!--CONTENT-->
                 <div class="table-responsive-sm">
@@ -209,7 +209,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <div><a href="projects.html" class="btn btn-primary">More Projects</a>
+                    <div><a href="projects.php" class="btn btn-primary">More Projects</a>
                     </div>
                     <br>
                 </div>
@@ -249,7 +249,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <div><a href="patterns.html" class="btn btn-primary">More Patterns</a>
+                    <div><a href="patterns.php" class="btn btn-primary">More Patterns</a>
                     </div>
                     <br>
                 </div>
@@ -294,7 +294,7 @@
                         </tbody>
                     </table>
                     <div>
-                        <a href="fabric.html" class="btn btn-primary">More Fabric</a>
+                        <a href="fabric.php" class="btn btn-primary">More Fabric</a>
                     </div>
                     <br>
                 </div>
@@ -330,7 +330,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <div><a href="tools.html" class="btn btn-primary">More Tools</a>
+                    <div><a href="tools.php" class="btn btn-primary">More Tools</a>
                     </div>
                     <br>
                 </div>
@@ -375,7 +375,7 @@
                         </tbody>
                     </table>
                     <div>
-                        <a href="shopping.html" class="btn btn-primary">More Shopping</a>
+                        <a href="shopping.php" class="btn btn-primary">More Shopping</a>
                     </div>
                     <br>
                 </div>
@@ -383,23 +383,23 @@
         </div>
     </div>
     <!--footer-->
-    <?php include 'includes/topnav.php'; ?>
-
+    <?php include 'includes/footer.php'; ?>
+    <!--
     <footer class="footer mt-auto py-3">
         <div class="container">
             <span class="text-muted">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about.php">About</a>
                     </li>
                 </ul>
             </span>
         </div>
-    </footer>
-    <!--Scripts JQuery first then rest only use CDN-->
+    </footer>-->
+    <!--Scripts JQuery first then rest only use CDN
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -408,25 +408,8 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
+    </script>-->
 
-    <!--    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"
-        type="0088a5a519ac33cb9052c93b-text/javascript"></script>
-    <script type="0088a5a519ac33cb9052c93b-text/javascript">
-    window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')
-    </script>
-    <script src="assets/dist/js/bootstrap.bundle.js" type="0088a5a519ac33cb9052c93b-text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"
-        type="0088a5a519ac33cb9052c93b-text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"
-        type="0088a5a519ac33cb9052c93b-text/javascript"></script>
-    <script src="assets/dist/js/dashboard.js" type="0088a5a519ac33cb9052c93b-text/javascript"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"
-        type="0088a5a519ac33cb9052c93b-text/javascript"></script>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js"
-        data-cf-settings="0088a5a519ac33cb9052c93b-|49" defer=""></script>-->
 </body>
 
 </html>
