@@ -1,16 +1,22 @@
 <!doctype html>
 <html lang="en">
 <!--HEAD-->
+<?php include_once './assets/actions/connect.php'; ?>
+
 <?php include 'includes/head.php'; ?>
 
-
+<?php  
+ $sql = "SELECT * FROM patterntable";  
+ $result = mysqli_query($conn, $sql);  
+ ?> 
+ 
 <body>
-
-    <!--TOP NAV-->
-    <?php include 'includes/topnav.php'; ?>
-
-
-
+      <!--Header-->
+    <section class="container">
+        <!--Top Nav-->
+        <?php include 'includes/topnav.php'; ?>
+        <!--Share & Export-->
+    </section>
     <!--Body of page-->
     <div class="container-fluid">
         <div class="row">
@@ -28,68 +34,43 @@
                 </div>
                 <!--CONTENT-->
 
-<!--PHP GOES BEFORE EACH TABLE  
-< ?php include_once 'db.php'; <---WILL BE MY DATABASE NAME
-   $result = mysqli_query($conn,"SELECT * FROM users");?> <----WILL BE FROM MY TABLE NAMES
-< ?php  if (mysqli_num_rows($result) > 0) { ?>-->
-
-                <div class="table-responsive-sm">
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th>Start Date</th>
-                                <th>Pattern #</th>
-                                <th>Status</th>
-                                <th>Pattern Image</th>
-                            </tr>
-                        </thead>
-<!--PHP WHILE LOOP GOES HERE 
-< ?php $i=0; while($row = mysqli_fetch_array($result)) {?> -->
-                        <tbody>
-                            <tr>
-<!--ECHO EACH ROW WITH COLUMN NAMES 
-< ?php echo $row["name"]; ? > <---WILL BE MY COLUMN NAMES-->
-                                <td>DATE</td>
-                                <td>CONCAT OF COMPANY + PATTERN #</td>
-                                <td>DROP DOWN</td>
-                                <td>IMAGE</td>
-                            </tr>
-                            <tr>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                                <td>misc</td>
-                            </tr>
-                            <tr>
-                                <td>Larry the Bird</td>
-                                <td>@twitter</td>
-                                <td>MISC</td>
-                                <td>misc</td>
-                            </tr>
-                        </tbody>
-                   <!--END OF WHILE LOOP  < ?php $i++;}  ?> -->
-                    </table>
-                    <!-- PART OF ELSE STATEMENT < ?php
-                    }else{
-                        echo "No result found";
-                    }
-                    ?>-->
-                    <div><a href="projects.php" class="btn btn-primary">More Projects</a>
-                    </div>
-                    <br>
+<!--SQL TABLE --> 
+  <div class="table-responsive-sm">
+    <table class="table table-hover">
+      <table class="table table-striped">  
+        <tr>  
+          <th>Pattern Number</th>  
+           <th>Pattern Description</th>  
+           <th>Brand</th> 
+           <th>Size</th> 
+           <th>Style</th> 
+        </tr>  
+<?php  while($row = mysqli_fetch_array($result))  
+  {  
+ ?>  
+        <tr>  
+            <td><?php echo $row["Pattern Number"]; ?></td>  
+            <td><?php echo $row["Pattern Description"];?></td>  
+            <td><?php echo $row["Brand"]; ?></td>  
+            <td><?php echo $row["Size"]; ?></td> 
+            <td><?php echo $row["Style"]; ?></td> 
+        </tr>  
+<?php  
+  }  
+?>  
+    </table>  
+<h1>Data Entry Forms</h1>
+    <div class="row">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
                 </div>
-                <h1>Data Entry Forms</h1>
-                <div class="row">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputPassword4">Password</label>
-                                <input type="password" class="form-control" id="inputPassword4">
-                            </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
                         </div>
                         <div class="form-group">
                             <label for="inputAddress">Address</label>
