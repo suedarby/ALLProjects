@@ -1,0 +1,45 @@
+<!--Header Include-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Sewing Project Management Tool" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="icon" href="favicon.ico" type="favicon.ico" sizes="16x16">
+    <link href="./includes/css/dashboard.css" rel="stylesheet">
+
+    <!--PHP Starts here-->
+    <!--Includes css, php, database connections etc-->
+    <!--What will be on each page-->
+    <?php require_once('/includes/initialize.php'); 
+include(SHARED_PATH . '/includes/head.php'); 
+$page_title = 'Patterns' 
+
+ ?>
+    <title>Sewing Project Manager - <?php echo $page_title; ?></title>
+
+</head>
+
+<body>
+    <!--Top Nav Include-->
+    <?php include(SHARED_PATH . '/topnav.php'); ?>
+
+    <!--Sidebar Include-->
+    <?php include(SHARED_PATH . '/sidenav.php'); ?>
+
+    <!--Main Area-->
+
+
+
+    <!--Footer-->
+    <?php include(SHARED_PATH . '/footer.php'); ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
