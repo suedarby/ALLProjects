@@ -1,49 +1,117 @@
-<?php require_once('../private/initialize.php'); ?>
+<?php 
+require_once('../private/initialize.php'); 
+?>
 <?php
-include(SHARED_PATH . '/head.php'); 
 
- $page_title = 'Notions';
- 
- ?>
- <?php
+#works
+$connection = mysqli_connect('localhost', 'root', '', 'sewingprojectmanager');
+    if (!$connection) {
+        die('Captian, we have failed');
+}  else         
+        $result = mysqli_query($connection, "SELECT * FROM brand");
 
-  function find_all_notions() {
-    global $db;
-    global $sql;
-    global $RESULT;
+  # else echo ('connect success');
+        return $connection;
+#where it fails
 
-    $sql = "SELECT * FROM notions"
-
-    or die('Query to select all failed');
-
-        $RESULT = mysqli_query($db, $sql);
-
-    if(!$RESULT){
-
-    die('Database error: '.mysqli_error($connection));
-    return $RESULT;
-  }}
 
 ?>
+<?php
+# require_once('../../../private/initialize.php'); 
+
  
 
- <?php echo $page_title; ?></br>
-                
-    <?php $notion_set = find_all_notions();
-    $RESULT = mysqli_query($db, $sql);
-
-while($notion = mysqli_fetch_assoc($RESULT)); 
-
- echo h($notion['nid']);
- 
- echo ('everything is fine'); 
- 
  ?>
+    <?php 
 
+        
+        $result = mysqli_query($connection, "SELECT * FROM `brand`");
 
+            
+    ?>  
 
-//<?php 
-//while ($result -> msqli_fetch_assoc ($notion_set)) {                
-//         echo h($notion["id"]); 
-//           echo h($notion["type"]); 
- //            }; ?> 
+ <?php
+#$projects = [
+ #   ["id"=>"1","status"=>"Stalled","name"=>"Test Project","number"=>"8286","brand"=>"Simplicity","image"=>"This will be an image thumbnail","fabric"=>"Cotton","yardage"=>"3 yds","notions"=>"Zipper","trims"=>"Ribbon","tools"=>"Scissors"],
+ #   ["id"=>"2","status"=>"Stalled","name"=>"Test Project","number"=>"8286","brand"=>"Butterick","image"=>"This will be an image thumbnail","fabric"=>"Cotton","yardage"=>"3 yds","notions"=>"Button","trims"=>"Ribbon","tools"=>"Scissors"],
+ #   ["id"=>"3","status"=>"Stalled","name"=>"Test Project","number"=>"8286","brand"=>"McCalls","image"=>"This will be an image thumbnail","fabric"=>"Cotton","yardage"=>"3 yds","notions"=>"Snap","trims"=>"Ribbon","tools"=>"Scissors"],
+ #   ];
+ ?>
+<?php   
+    include(SHARED_PATH . '/head.php');  
+    $page_title = 'Notions'
+?>
+
+<title>Sewing Project Manager - <?php echo $page_title; ?></title>
+
+<div class="wrapper">
+  <header class="header">    
+      <?php include(SHARED_PATH . '/topnav.php'); ?>
+    </header>
+ </div> 
+
+<main role="main" class="dash main content bd-content flex-column ">
+    <section class="container">   <!--Notions SECTION HERE ---> 
+        <div class="flex-column">           
+            <div class="row">
+                <div class="justify-content-between flex-wrap  align-items-top pt-3 pb-2 mb-3 border-bottom">   
+                    <h1 class="h2">Notions</h1> 
+                </div>  
+            </div> 
+                <!--ADD BUTTON-->
+            <button type="button" class="btn btn-outline-primary btn-link btn-sm">
+                <a class="action" href="<?php echo url_for('./projects/notions/add.php'); ?>">
+                <i class="fa fa-plus-square" aria-hidden="true"> &nbsp;Add New Notion</i>
+                </a>
+            </button>          
+        </div> 
+    </section>  
+    <div class="justify-content-between flex-wrap  align-items-top pt-3 pb-2 mb-3">  
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col"><i class="fa fa-eye" aria-hidden="true"></i></button></th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Size</th>
+                    <th scope="col"><i class="fa fa-pencil-square" aria-hidden="true"></i></th>
+                    <th scope="col"><i class="fa fa-trash" aria-hidden="true"></i></th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php #foreach($projects as $project) { ?>
+                <tr>             
+                <th scope="row">
+                    <button type="button" class="btn btn-outline-primary btn-link btn-sm">
+                        <a class="action" href="<?php #echo url_for('./projects/notions/show.php?id=' . h(u($project['id']))); ?>">
+                            <i class="fa fa-eye" aria-hidden="true">View
+                            </i>
+                        </a>
+                    </button>
+                 
+                <td><?php echo $sql["brand"]; ?></td>
+                <td><?php #echo $sql2["type"]; ?></td>
+                <td><?php #echo $project["name"]; ?></td>
+                <td><?php #echo $project["number"]; ?></td>
+                <td><?php #echo $project["brand"]; ?></td>
+                <td><?php #echo $project["image"]; ?></td>
+                <td><?php #echo $project["fabric"]; ?></td>
+                    <!--UPDATE -->
+                <td> 
+                    <button type="button" class="btn btn-outline-primary btn-link btn-sm">
+                        <a class="action" href="<?php #echo url_for('./projects/notions/update.php?id=' . h(u($project['id']))); ?>">
+                            <i class="fa fa-pencil-square" aria-hidden="true">
+                            Update</i>
+                        </a>
+                    </button>
+                </td>
+                <td> <button type="button" class="btn btn-outline-primary btn-link btn-sm"><i class="fa fa-trash" aria-hidden="true"> Delete</i></button></td>
+                </tr>
+                <?php # }; ?> 
+            </tbody>
+        </table>  
+    </div>
+   
+    <br> <br> <br>
+</main>
