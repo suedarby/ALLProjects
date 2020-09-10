@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+
+<head>
+  <title>Lady Code Monkey~To Do List</title>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/2020.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+    crossorigin="anonymous" />
+  <!--ICON-->
+  <link rel="icon" href="favicon.ico" type="favicon.ico" sizes="16x16">
+  <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header><img src="images/cropped-IMG_7391-6.jpg" class="header_img ">
+    <div class="jumbotron text-center">
+      <img src="images/Lady_Code_Monkey_sm.png" class="logo float-left rounded">
+      <div>
+        <h1>Lady Code Monkey</h1>
+        <p class="subtitle">Task List App</p>
+      </div>
+    </div>
+  </header>
+  <!--Top Nav-->
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="http://www.sue-a-darby.com/ladycodemonkey2020/index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://www.sue-a-darby.com/ladycodemonkey2020/about.html">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://www.sue-a-darby.com/ladycodemonkey2020/news.html">News</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://www.sue-a-darby.com/ladycodemonkey2020/portfolio.html">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://www.sue-a-darby.com/ladycodemonkey2020/sitemap.html">Sitemap</a>
+    </li>
+  </ul>
+  <!--END NAVIGATION-->
+
+  <!--MAIN PAGE CONTAINER-->
+  <div class="container-fluid">
+    <div class="row">
+      <!--LEFT SIDEBAR NAVIGATION-->
+      <span class="sidebar">
+        <nav class="nav">
+          <div class="col-sm-3 sidebar">
+            <h3 class="menu-side">Menu</h3>
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item nav-list">
+                <ul>
+                  <li class="nav nav-item nav-list"><a class="nav-link"
+                      href="http://www.sue-a-darby.com/ladycodemonkey2020/index.html">Home</a>
+                  </li>
+                  <li class="nav nav-item nav-list"><a class="nav-link"
+                      href="http://www.sue-a-darby.com/ladycodemonkey2020/about.html">About</a>
+                  </li>
+                  <li class="nav nav-item nav-list"><a class="nav-link"
+                      href="http://www.sue-a-darby.com/ladycodemonkey2020/news.html">News</a>
+                  </li>
+                  <li class="nav nav-item nav-list"><a class="nav-link"
+                      href="http://www.sue-a-darby.com/ladycodemonkey2020/portfolio.html">Portfolio Page</a>
+                  </li>
+                  <ul>
+                    <li class="nav nav-item nav-list"><a class="nav-link"
+                        href="http://www.sue-a-darby.com/todoapp/index.html">To Do App</a></li>
+                    <li class="nav nav-item nav-list"><a class="nav-link"
+                        href="http://www.sue-a-darby.com/ladycodemonkey2020/slider.html">Slider</a></li>
+                    <li class="nav nav-item nav-list"><a class="nav-link"
+                        href="http://www.sue-a-darby.com/ladycodemonkey2020/landing.html">Landing Page</a>
+                    </li>
+                    <li class="nav nav-item nav-list"><a class="nav-link"
+                        href="http://www.sue-a-darby.com/ladycodemonkey2020/technicaldoc.html">Technical
+                        Documentation</a></li>
+                  </ul>
+                  <li class="nav nav-item nav-list"><a class="nav-link"
+                      href="http://www.sue-a-darby.com/ladycodemonkey2020/sitemap.html">Site
+                      Map</a></li>
+                </ul>
+            </ul>
+          </div>
+        </nav>
+      </span>
+      <!--END LEFT SIDEBAR-->
+
+      <!--ALL pages get this to here-->
+
+      <div class="col-sm-8">
+        <!--MAIN CONTENT ALL NON STATIC CONTENT GOES HERE-->
+        <h1>My Task List</h1>
+        <form>
+          <input type="text" class="todo-input" />
+          <button class="todo-button" type="submit"> <i class="fas fa-plus-square"></i></button>
+          <div class="select">
+            <select name="todos" class="filter-todo">
+              <option value="all">All</option>
+              <option value="completed">Completed</option>
+              <option value="uncompleted">Uncompleted</option>
+            </select>
+          </div>
+        </form>
+        <div class="todo-container">
+          <ul class="todo-list"></ul>
+          <!--END MAIN CONTENT-->
+
+          <!--All pages get from here down-->
+        </div>
+        <!--END ROW-->
+      </div>
+      <!--END CONTAINER-->
+    </div>
+  </div>
+
+  <!--FOOTER-->
+
+  <footer class="footer jumbotron">
+    <div class=" text-center">
+      <nav class="nav justify-content-center">
+        <a class="nav-link active" href="http://www.sue-a-darby.com/ladycodemonkey2020/index.html">Home</a>
+        <a class="nav-link" href="http://www.sue-a-darby.com/ladycodemonkey2020/about.html">About</a>
+        <a class="nav-link" href="http://www.sue-a-darby.com/ladycodemonkey2020/sitemap.html">Site Map</a>
+      </nav>
+      <p> <a href="http://www.sue-a-darby.com/">&copy; 2020 Sue Darby</a></p>
+      <p> <img src="images/Facebook.png" alt=""> </p>
+    </div>
+  </footer>
+
+  <!--END FOOTER-->
+
+  <!-- Optional JavaScript -->
+  <script src="./app.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6400752-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-6400752-1');
+  </script>
+
+</body>
+
+</html>
