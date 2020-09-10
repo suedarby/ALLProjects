@@ -1,3 +1,15 @@
+<<<<<<< Updated upstream
+=======
+<?php include('../includes/database.php'); ?> 
+
+<?php
+    $sql = "SELECT * FROM notion;";
+    $result = mysqli_query($conn, $sql);
+    $resultCheck = mysqli_num_rows($result);
+?>
+<!--CHANGE THE QUERY TO POINT TO THE VIEW NOT THE MAIN TABLE -->
+
+>>>>>>> Stashed changes
 <!--Notions Table-->
             <div class="container row">
                 <h1>View/Dash Notions</h1>

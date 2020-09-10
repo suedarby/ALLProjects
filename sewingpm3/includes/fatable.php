@@ -1,3 +1,13 @@
+<<<<<<< Updated upstream
+=======
+<?php include('../includes/database.php'); ?> 
+
+<?php
+    $sql = "SELECT * FROM fabrics;";//view table combines fabric, color and location
+    $result = mysqli_query($conn, $sql);
+    $resultCheck = mysqli_num_rows($result);
+?>
+>>>>>>> Stashed changes
 <!--Fabric Table-->
             <div class="container row">
                 <h1>View/Dash Fabric</h1>

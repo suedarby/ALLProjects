@@ -1,3 +1,14 @@
+<<<<<<< Updated upstream
+=======
+<?php include('../includes/database.php'); ?> 
+
+<?php
+    $sql = "SELECT * FROM trim;";
+    $result = mysqli_query($conn, $sql);
+    $resultCheck = mysqli_num_rows($result);
+
+?>
+>>>>>>> Stashed changes
 <!--Trims Table-->
             <div class="container row">
                 <h1>View/Dash Trims</h1>
