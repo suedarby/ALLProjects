@@ -1,0 +1,2 @@
+topic
+this is the area for building out a project including adding all the images from photos, picking colors and tying it together on the projects page

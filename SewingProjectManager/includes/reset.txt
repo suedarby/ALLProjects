@@ -1,0 +1,3 @@
+reset
+resets password may be combined with login as the script that emails link for reset or hints or temp password to change password
+functions are part of includes not main folder

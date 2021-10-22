@@ -1,0 +1,3 @@
+register
+combine with login and password reset
+functions are part of includes not main folder

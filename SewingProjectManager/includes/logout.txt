@@ -1,0 +1,2 @@
+logout
+logging out script for the public area of site

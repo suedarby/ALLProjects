@@ -1,0 +1,2 @@
+size
+move to admin with set list of xs-xxxl

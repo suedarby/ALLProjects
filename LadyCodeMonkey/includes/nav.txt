@@ -1,0 +1,2 @@
+nav
+sidebar that shows everything in a indented list no bullets

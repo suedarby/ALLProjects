@@ -1,0 +1,6 @@
+notion
+full CRUD oop functions
+dash has all fields on table
+10 per page
+filters
+search

@@ -1,0 +1,2 @@
+about
+talks about the personal projects and their purposes

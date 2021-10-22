@@ -1,0 +1,6 @@
+public
+view single item 
+view dashboard of items
+ update 
+ add functions only
+ delete goes to my admin section only with single CRUD for ALL fields

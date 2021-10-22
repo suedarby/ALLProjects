@@ -1,0 +1,4 @@
+status
+standard project statuses 
+set list 
+move to admin private

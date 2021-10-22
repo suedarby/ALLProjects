@@ -1,0 +1,8 @@
+fabric
+dash displays all fabrics w/ all fields
+10 per pageconnect in search function
+include image of fabric?
+includes pagination
+has new, update and delete functions
+uses color drop down to store hex
+fabric feeds drop down for projects

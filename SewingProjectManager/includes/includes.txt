@@ -1,0 +1,7 @@
+includes
+files for 
+register, 
+login, 
+PW reset, 
+not logged in menu and header 
+along with logout function

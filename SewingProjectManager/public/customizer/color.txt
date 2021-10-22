@@ -1,0 +1,2 @@
+color
+just a color picker and store hex in db?

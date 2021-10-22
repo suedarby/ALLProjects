@@ -1,0 +1,2 @@
+includes
+to have one place to house the header footer and side menu

@@ -1,0 +1,3 @@
+footer
+copyright
+home login register contact privacy

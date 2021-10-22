@@ -1,0 +1,2 @@
+header
+includes non logged in menu with links to login or register

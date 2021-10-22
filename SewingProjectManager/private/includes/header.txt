@@ -1,0 +1,2 @@
+header
+Same as logged out only change login/register to logout

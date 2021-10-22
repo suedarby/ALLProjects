@@ -1,0 +1,19 @@
+validation_functions
+abstract OOP for validation functions
+login
+pw changes
+update item
+add item
+contact form
+
+is_blank
+has_presence
+has_length_greater_than
+has_length_less_than
+has_length_exactly
+has_length
+has_inclusion_of
+has_exclusion_of
+has_string
+has_valid_email_format
+has_unique_page_menu_name

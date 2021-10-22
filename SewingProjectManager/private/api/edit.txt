@@ -1,0 +1,2 @@
+edit
+oop to edit single item from any page script/function

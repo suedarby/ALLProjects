@@ -1,0 +1,22 @@
+functions
+general functions
+find directory no matter what
+
+
+url_for
+
+urlencode
+
+rawurlencode
+
+htmlspecialchars
+
+error_404
+
+error_500
+
+redirect_to
+
+is_get_request
+
+is_post_request

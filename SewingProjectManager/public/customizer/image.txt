@@ -1,0 +1,5 @@
+image
+upload image to photos via api
+use google OAuth for security
+pick photos from Gphotos to display only
+no upload to MY DB

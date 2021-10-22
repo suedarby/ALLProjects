@@ -1,0 +1,7 @@
+admin
+for my use
+control users
+add or delete from db
+take del away from users and make it admin only
+FULL CRUD for all fields on one form?
+can add to drop downs

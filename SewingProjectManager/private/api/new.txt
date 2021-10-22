@@ -1,0 +1,3 @@
+new
+oop function/script to add new item to any topic
+single abstracted function with if or switch statements

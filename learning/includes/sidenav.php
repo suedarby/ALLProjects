@@ -10,7 +10,8 @@
                          </li>
                          <li class="nav nav-item nav-list"><a class="nav-link" href="about.php">About</a>
                          </li>
-                         <li class="nav nav-item nav-list"><a class="nav-link" href="http://project-planning.sue-a-darby.com/">News *NEW</a>
+                         <li class="nav nav-item nav-list"><a class="nav-link"
+                                 href="http://project-planning.sue-a-darby.com/">News</a>
                          </li>
                          <li class="nav nav-item nav-list"><a class="nav-link" href="skills.php">Skills</a>
                          </li>
@@ -20,15 +21,13 @@
                          </li>
                          <li class="nav nav-item nav-list"><a class="nav-link" href="achievements.php">Achievements</a>
                          </li>
-                 </li>
-                 <li class="nav nav-item nav-list"><a class="nav-link" href="education.php">Education</a>
-                 </li>
-                 <li class="nav nav-item nav-list"><a class="nav-link" href="contact.php">Contact</a></li>
-                 <li class="nav nav-item nav-list"><a class="nav-link" href="privacy.php">Privacy</a></li>
-                 <li class="nav nav-item nav-list"><a class="nav-link" href="site-map.php">Site
-                         Map *NEW</a></li>
+                         <li class="nav nav-item nav-list"><a class="nav-link" href="education.php">Education</a>
+                         </li>
+                         <li class="nav nav-item nav-list"><a class="nav-link" href="contact.php">Contact</a></li>
+                         <li class="nav nav-item nav-list"><a class="nav-link" href="privacy.php">Privacy</a></li>
+                         <li class="nav nav-item nav-list"><a class="nav-link" href="site-map.php">Site Map</a></li>
+                     </ul>
              </ul>
-
          </div>
      </nav>
  </span>

@@ -1,0 +1,4 @@
+education
+List/gallery of college degree perhaps thumbnail size
+old and new certs in list/gallery
+additional LI etc are by Learning Path with text list of courses included

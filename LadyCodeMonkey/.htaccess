@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteRule index\.html index.php [NC,R]
+
+# Turn Rewrite Engine On
+RewriteEngine on
+
+# Rewrite for LCM index.php
+RewriteRule ^index.html$ index.php [NC,L]
+
+# NC makes the rule non case sensitive
+# L makes this the last rule that this specific condition will match
+# $ in the regular expression makes the matching stop so that "customblah" will not work
+RedirectMatch 301 (.*)\.html$ http://www.ladycodemonkey.sue-a-darby.com$1.php

@@ -1,0 +1,2 @@
+about
+purpose, section descriptions in cards, feed of data from WP sites

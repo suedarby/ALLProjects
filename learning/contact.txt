@@ -1,0 +1,4 @@
+contact
+links into database
+need an actions page
+could be duplicate of LCM and go to same DB

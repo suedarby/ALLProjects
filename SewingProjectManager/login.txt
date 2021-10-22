@@ -1,0 +1,6 @@
+login
+basic login
+may combine with register and reset
+functions are part of includes not main folder
+
+USE Google OAuth for login

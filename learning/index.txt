@@ -1,0 +1,2 @@
+index
+talks about what i'm learning and why while linking to completed projects

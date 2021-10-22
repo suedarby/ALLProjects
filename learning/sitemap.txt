@@ -1,0 +1,2 @@
+sitemap
+maps all pages on site

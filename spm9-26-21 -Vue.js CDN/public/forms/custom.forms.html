@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>SPM Combo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baskervville&amp;display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/assets/fonts/fontawesome5-overrides.min.css?h=34f9b351b7076f97babcdac3c1081100">
+    <link rel="stylesheet" href="/assets/css/footer-row.css?h=48774f96d0f067fc23392af7d681a29f">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.bootstrap_4.min.css">
+    <link rel="stylesheet" href="/assets/css/Logged-In-Top-Nav.css?h=229772c539e6c2c6adb8f01fe596a7ca">
+    <link rel="stylesheet" href="/assets/css/styles.css?h=97309497f71bfacb4e7cec29edd1c2d3">
+</head>
+
+<body style="background: #eff3f6;">
+    <div class="container-fluid" style="font-family: Baskervville, serif;">
+        <div class="row">
+            <div class="col">
+                <!-- Start: Logged In Top Nav -->
+                <nav class="navbar navbar-light navbar-expand navigation-clean-search" style="font-family: Baskervville, serif;background: #eff3f6;padding-bottom: 20px;padding-top: 18px;">
+                    <div class="container"><a class="navbar-brand" href="index.html" style="color: var(--bs-blue);font-family: Baskervville, serif;font-weight: bold;font-style: italic;font-size: 18px;padding-top: 10px;padding-bottom: 10px;"><i class="fas fa-ruler" style="color: var(--bs-blue);font-size: 18px;"></i>Sewing Project Manager</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="padding-bottom: 6px;"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navcol-1" style="padding-bottom: 0px;margin-bottom: 0px;border-radius: 4px;border-width: 3px;border-color: var(--bs-blue);">
+                            <form class="ms-auto search-form" target="_self" style="padding-bottom: 0px;margin-bottom: 0px;">
+                                <div class="d-flex flex-grow-1 flex-shrink-1 align-items-center" style="margin-bottom: 0px;padding-bottom: 0px;"><label class="form-label d-flex mb-0" for="search-field"><i class="fa fa-search" style="font-size: 12px;"></i></label><input class="form-control d-flex float-end flex-grow-1 flex-shrink-1 search-field" type="search" id="search-field" name="search" style="border-radius: 13px;height: 28.5692px;padding-bottom: 6px;border: 2px solid var(--bs-blue);font-size: 10px;"></div>
+                            </form><a class="btn btn-light active ms-auto action-button" role="button" href="index.html" style="background: var(--bs-blue);font-size: 10px;">Log Out</a>
+                        </div>
+                    </div>
+                </nav><!-- End: Logged In Top Nav -->
+            </div>
+            <div class="w-100" style="padding-bottom: 2px;"></div>
+            <div class="col">
+                <div class="row">
+                    <div class="col text-start" style="font-size: 12px;margin-right: 9px;margin-left: 13px;padding-right: 20px;padding-left: 21px;"><i class="fa fa-star"></i><a href="index.html" style="padding-right: 14px;">Home</a><i class="fa fa-star"></i><a href="public/index.supplies.html#tab-8" style="padding-right: 14px;">Welcome</a><i class="fa fa-star"></i><a href="public/forms/supplies.forms.html" style="padding-right: 14px;">Supply Forms</a><i class="fa fa-star"></i><a href="public/forms/custom.forms.html">Customizer Forms</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col" style="font-family: Baskervville, serif;">
+                        <div>
+                            <ul class="nav nav-tabs" role="tablist" style="font-family: Baskervville, serif;font-size: 14px;">
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-1">Brands</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-2">Category</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">Color</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-4">Location</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-5">Size</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-6">Status</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-7">Style</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-8">Tag</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane" role="tabpanel" id="tab-1">
+                                    <div class="row">
+                                        <div class="col-auto"><!-- Sewing Project Manager Brand-->
+<style>
+    body { background-color: #EFF3F6; padding: 20px; }
+    .legend { margin-top: 0 }
+    .g-recaptcha { min-height: 78px; }
+    .panel-body { padding: 5px; }
+    .form-container { padding: 20px; border-radius: 0 0 4px 4px; }
+      /*********** Theme Designer **********/
+  .form-container {
+    font-family: Baskervville;
+  }
+    </style>
+    <script>
+    var options = {"id":1,"app":"\/\/sewingprojectmanager\/app\/app","tracker":"js\/form.tracker.js","name":"#form-app","actionUrl":"http:\/\/sewingprojectmanager\/app\/app\/f?id=1","validationUrl":"http:\/\/sewingprojectmanager\/app\/app\/check?id=1","_csrf":"rj54UrW3Y_1FETT2c7lzb6R97u_pHBcrDEARjAYzFJ_rSE8c0s0hsB9odZAy9Bg47DWK3aQuRU1ZeUDiRQVg5Q==","resume":1,"text_direction":"ltr","autocomplete":1,"novalidate":0,"analytics":1,"confirmationType":0,"confirmationMessage":false,"confirmationUrl":"","confirmationSeconds":null,"confirmationAppend":0,"confirmationAlias":0,"showOnlyMessage":1,"redirectToUrl":2,"rules":[],"fieldIds":["text_1","text_2","button_1","button_2"],"submitted":false,"runOppositeActions":true,"skips":[],"reCaptchaVersion":"2","reCaptchaSiteKey":"your_site_key","defaultValues":false,"i18n":{"complete":"Complete","unexpectedError":"An unexpected error has occurred. Please retry later."}};
+    </script>
+
+  <div class="container">
+      <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+              <div class="form-view">
+                  <div class="panel panel-default">
+                      <div class="panel-body">
+                          <div class="form-container">
+                              <div id="messages"></div>
+                              <form action="http://sewingprojectmanager/app/app/f?id=1" method="post" enctype="multipart/form-data" accept-charset="UTF-8" id="form-app" class="form-horizontal">
+  <fieldset class="row">
+  
+  <!-- Heading -->
+  <div class="col-8">
+      <h3 class="legend">Brands</h3>
+  </div>
+  
+  <!-- Paragraph Text -->
+  <div class="col-8">
+      <p>Add your favorite pattern and embroidery thread brands and urls!</p>
+  </div>
+  
+  <!-- Text -->
+  <div class="col-8">
+      <div class="form-group">
+          <label  class="control-label" for="text_1">Brand</label>
+          <input type="text" id="text_1" name="text_1" value="" data-alias="" class="form-control">
+      </div>
+  </div>
+  
+  <!-- Text -->
+  <div class="col-10">
+      <div class="form-group">
+          <label  class="control-label" for="text_2">URL</label>
+          <input type="url" id="text_2" name="text_2" value="" data-alias="" class="form-control">
+      </div>
+  </div>
+  
+  <!-- Button -->
+  <div class="col-3 mt-3">
+       <div class="form-action">
+          <button type="submit" id="button_1" name="button_1" class="btn btn-primary">Submit</button>
+      </div>
+  </div>
+  </fieldset>
+  <div class="" style="display:none"><label class="control-label" for="_email">Excuse me, but leave this field in blank</label><input type="text" id="_email" class="form-control" name="_email"></div> </form>
+                              <div id="progress" class="progress" style="display: none;">
+                                  <div id="bar" class="progress-bar" role="progressbar" style="width: 0;">
+                                      <span id="percent" class="sr-only">0% Complete</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+<!-- End Sewing Project Manager --></div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane active" role="tabpanel" id="tab-2" style="font-size: 14px;font-family: Baskervville, serif;">
+                                    <div class="row">
+                                        <div class="col-auto"><!-- Sewing Project Manager Category-->
+<style>
+    body { background-color: #EFF3F6; padding: 20px; }
+    .legend { margin-top: 0 }
+    .g-recaptcha { min-height: 78px; }
+    .panel-body { padding: 5px; }
+    .form-container { padding: 20px; border-radius: 0 0 4px 4px; }
+      /*********** Theme Designer **********/
+  .form-container {
+    font-family: Baskervville;
+  }
+    </style>
+    <script>
+    var options = {"id":3,"app":"\/\/sewingprojectmanager\/app\/app","tracker":"js\/form.tracker.js","name":"#form-app","actionUrl":"http:\/\/sewingprojectmanager\/app\/app\/f?id=3","validationUrl":"http:\/\/sewingprojectmanager\/app\/app\/check?id=3","_csrf":"jE6MSW0K_7eadEplIR4EqRw3YcOBMkYMBaBQ2tWN0lbJOLsHCnC9-sANCwNgU2_-VH8F8cwAFGpQmQG0lrumLA==","resume":1,"text_direction":"ltr","autocomplete":1,"novalidate":0,"analytics":1,"confirmationType":0,"confirmationMessage":false,"confirmationUrl":"","confirmationSeconds":null,"confirmationAppend":0,"confirmationAlias":0,"showOnlyMessage":1,"redirectToUrl":2,"rules":[],"fieldIds":["text_1","button_1"],"submitted":false,"runOppositeActions":true,"skips":[],"reCaptchaVersion":"2","reCaptchaSiteKey":"your_site_key","defaultValues":false,"i18n":{"complete":"Complete","unexpectedError":"An unexpected error has occurred. Please retry later."}};
+    </script>
+  <div class="container">
+      <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+              <div class="form-view">
+                  <div class="panel panel-default">
+                      <div class="panel-body">
+                          <div class="form-container">
+                              <div id="messages"></div>
+                              <form action="http://sewingprojectmanager/app/app/f?id=3" method="post" enctype="multipart/form-data" accept-charset="UTF-8" id="form-app" class="form-horizontal">
+  <fieldset class="row">
+  
+  <!-- Heading -->
+  <div class="col-8">
+      <h3 class="legend">Category</h3>
+  </div>
+  
+  <!-- Paragraph Text -->
+  <div class="col-8">
+      <p>Add your own categories for your stash.</p>
+  </div>
+  
+  <!-- Text -->
+  <div class="col-10">
+      <div class="form-group">
+          <label  class="control-label" for="text_1">Category</label>
+          <input type="text" id="text_1" name="text_1" value="" data-alias="" class="form-control">
+      </div>
+  </div>
+  
+  <!-- Button -->
+  <div class="col-3 mt-3">
+       <div class="form-action">
+          <button type="submit" id="button_1" name="button_1" class="btn btn-primary">Submit</button>
+      </div>
+  </div>
+  </fieldset>
+  <div class="" style="display:none"><label class="control-label" for="_email">Excuse me, but leave this field in blank</label><input type="text" id="_email" class="form-control" name="_email"></div> </form>
+                              <div id="progress" class="progress" style="display: none;">
+                                  <div id="bar" class="progress-bar" role="progressbar" style="width: 0;">
+                                      <span id="percent" class="sr-only">0% Complete</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+<!-- End Sewing Project Manager --></div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="tab-3" style="font-size: 14px;font-family: Baskervville, serif;">
+                                    <div class="row">
+                                        <div class="col-auto"><style>
+  body { background-color: #EFF3F6; padding: 20px; }
+  .legend { margin-top: 0 }
+  .g-recaptcha { min-height: 78px; }
+  .panel-body { padding: 5px; }
+  .form-container { padding: 20px; border-radius: 0 0 4px 4px; }
+    /*********** Theme Designer **********/
+.form-container {
+  font-family: Baskervville;
+}
+#form-app {
+}
+#form-app .form-group {
+}
+#form-app .form-control {
+}
+#form-app .form-control:focus {
+}
+#form-app .btn.btn-primary {
+}
+#form-app .btn.btn-primary:hover, #form-app .btn.btn-primary:active, #form-app .btn.btn-primary:focus {
+}
+#form-app .btn.btn-default {
+}
+#form-app .btn.btn-default:hover, #form-app .btn.btn-default:active, #form-app .btn.btn-default:focus {
+}
+#form-app .btn.btn-warning {
+}
+#form-app .btn.btn-warning:hover, #form-app .btn.btn-warning:active, #form-app .btn.btn-warning:focus {
+}
+#form-app .btn.btn-danger {
+}
+#form-app .btn.btn-danger:hover, #form-app .btn.btn-danger:active, #form-app .btn.btn-danger:focus {
+}
+#form-app .btn.btn-info:hover, #form-app .btn.btn-info:active, #form-app .btn.btn-info:focus {
+}
+#form-app .control-label {
+}
+#form-app ::placeholder {
+}
+#form-app h1, #form-app h2, #form-app h3, #form-app h4, #form-app h5, #form-app h6, #form-app .legend {
+}
+#form-app p {
+}
+#form-app .help-block {
+}
+#form-app a {
+}
+#form-app a:hover {
+}
+#form-app .steps .step .stage, #form-app .steps .step:before, #form-app .steps .step:after {
+}
+#form-app .steps .step .stage {
+}
+#form-app .steps .step:after, #form-app .steps .step:before {
+}
+#form-app .steps .step.current .stage, #form-app .steps .step.current:after, #form-app .steps .step.current:before {
+}
+#form-app .steps .step.success .stage, #form-app .steps .step.success:after, #form-app .steps .step.success:before {
+}
+#form-app .steps .step .title {
+}
+#form-app .steps .step.current .title {
+}
+#form-app .steps .step.success .title {
+}
+.alert {
+}
+.alert-success {
+}
+.alert-danger {
+}
+.alert-info {
+}
+.alert-warning {
+}
+.has-error .form-control {
+}
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+}
+.required .control-label:after, .required-control .control-label:after {
+}
+#recaptcha, .g-recaptcha {
+}
+.signature-pad {
+}
+.signature-pad canvas {
+}
+input[type=checkbox] {
+}
+.checkbox-inline {
+}
+input[type=radio] {
+}
+.radio-inline {
+}
+.custom-control .checkbox label::before, .custom-control .inline-control-checkbox label::before {
+}
+.custom-control .checkbox label::after, .custom-control .inline-control-checkbox label::after {
+}
+.custom-control .checkbox input:checked+label::before, .custom-control .inline-control-checkbox input:checked+label::before {
+}
+.custom-control .checkbox input:checked+label::after, .custom-control .inline-control-checkbox input:checked+label::after {
+}
+.custom-control .radio label::before, .custom-control .inline-control-radio label::before {
+}
+.custom-control .radio label::after, .custom-control .inline-control-radio label::after {
+}
+.custom-control .radio input:checked+label::before, .custom-control .inline-control-radio input:checked+label::before {
+}
+.custom-control .radio input:checked+label::after, .custom-control .inline-control-radio input:checked+label::after {
+}
+.btn.prev {
+}
+#form-app .btn.prev:hover, #form-app .btn.prev:active, #form-app .btn.prev:focus {
+}
+.btn.next {
+}
+#form-app .btn.next:hover, #form-app .btn.next:active, #form-app .btn.next:focus {
+}
+.progress {
+}
+.progress-bar {
+}
+.table {
+}
+.well {
+}
+
+  </style>
+  <script>
+  var options = {"id":17,"app":"\/\/sewingprojectmanager\/app\/app","tracker":"js\/form.tracker.js","name":"#form-app","actionUrl":"http:\/\/sewingprojectmanager\/app\/app\/f?id=17","validationUrl":"http:\/\/sewingprojectmanager\/app\/app\/check?id=17","_csrf":"kDLJmlyA-hrCQpexYB7nxxlvtWmW8Qb2HPntgBpESu_VRP7UO_q4V5g71tchU4yQUSfRW9vDVJBJwLzuWXI-lQ==","resume":1,"text_direction":"ltr","autocomplete":1,"novalidate":0,"analytics":1,"confirmationType":0,"confirmationMessage":false,"confirmationUrl":"","confirmationSeconds":null,"confirmationAppend":0,"confirmationAlias":0,"showOnlyMessage":1,"redirectToUrl":2,"rules":[],"fieldIds":["text_1","button_1"],"submitted":false,"runOppositeActions":true,"skips":[],"reCaptchaVersion":"2","reCaptchaSiteKey":"your_site_key","defaultValues":false,"i18n":{"complete":"Complete","unexpectedError":"An unexpected error has occurred. Please retry later."}};
+  </script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+    <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+            <div class="form-view">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="form-container">
+                            <div id="messages"></div>
+                            <form action="http://sewingprojectmanager/app/app/f?id=17" method="post" enctype="multipart/form-data" accept-charset="UTF-8" id="form-app">
+<fieldset class="row">
+
+<!-- Heading -->
+<div class="col-xs-12">
+    <h3 class="legend">Colors</h3>
+</div>
+
+<!-- Paragraph Text -->
+<div class="col-xs-12">
+    <p>Add custom colors to your projects. RGB, HSL or HEX values.</p>
+</div>
+
+<!-- Text -->
+<div class="col-3">
+    <div class="form-group">
+        <label  class="control-label" for="text_1">Colors</label>
+        <input type="color" id="text_1" name="text_1" value="" data-alias="" class="form-control">
+    </div>
+</div>
+
+<!-- Button -->
+<div class="col-xs-12 mt-3">
+     <div class="form-action">
+        <button type="submit" id="button_1" name="button_1" class="btn btn-primary">Submit</button>
+    </div>
+</div>
+</fieldset>
+<div class="" style="display:none"><label class="control-label" for="_email">Excuse me, but leave this field in blank</label><input type="text" id="_email" class="form-control" name="_email"></div> </form>
+                            <div id="progress" class="progress" style="display: none;">
+                                <div id="bar" class="progress-bar" role="progressbar" style="width: 0;">
+                                    <span id="percent" class="sr-only">0% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="tab-8" style="font-size: 14px;font-family: Baskervville, serif;">
+                                    <div class="row">
+                                        <div class="col-auto"><!-- Sewing Project Manager Tag-->
+<script>
+    var options = {"id":8,"app":"\/\/sewingprojectmanager\/app\/app","tracker":"js\/form.tracker.js","name":"#form-app","actionUrl":"http:\/\/sewingprojectmanager\/app\/app\/f?id=8","validationUrl":"http:\/\/sewingprojectmanager\/app\/app\/check?id=8","_csrf":"Vdh3kFKotXQ98AqJvFGy5WuEUd5HdOHJlr9OivBc1FoQrkDeNdL3OWeJS-_9HNmyI8w17ApGs6_Dhh_ks2qgIA==","resume":1,"text_direction":"ltr","autocomplete":1,"novalidate":0,"analytics":1,"confirmationType":0,"confirmationMessage":false,"confirmationUrl":"","confirmationSeconds":null,"confirmationAppend":0,"confirmationAlias":0,"showOnlyMessage":1,"redirectToUrl":2,"rules":[],"fieldIds":["text_1","button_1"],"submitted":false,"runOppositeActions":true,"skips":[],"reCaptchaVersion":"2","reCaptchaSiteKey":"your_site_key","defaultValues":false,"i18n":{"complete":"Complete","unexpectedError":"An unexpected error has occurred. Please retry later."}};
+    </script>
+  </head>
+  <body>
+  <div class="container">
+      <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+              <div class="form-view">
+                  <div class="panel panel-default">
+                     <div class="panel-body">
+                          <div class="form-container">
+                              <div id="messages"></div>
+                              <form action="http://sewingprojectmanager/app/app/f?id=8" method="post" enctype="multipart/form-data" accept-charset="UTF-8" id="form-app" class="form-horizontal">
+  <fieldset class="row">
+  
+  <!-- Heading -->
+  <div class="col-xs-12">
+      <h3 class="legend">Tags</h3>
+  </div>
+  
+  <!-- Paragraph Text -->
+  <div class="col-xs-12">
+      <p>Add single tags here</p>
+  </div>
+  
+  <!-- Text -->
+  <div class="col-xs-12">
+      <div class="form-group">
+          <label  class="control-label" for="text_1">Tags</label>
+          <input type="text" id="text_1" name="text_1" value="" data-alias="" class="form-control">
+      </div>
+  </div>
+  
+  <!-- Button -->
+  <div class="col-xs-12">
+       <div class="form-action">
+          <button type="submit" id="button_1" name="button_1" class="btn btn-primary">Submit</button>
+      </div>
+  </div>
+  </fieldset>
+  <div class="" style="display:none"><label class="control-label" for="_email">Excuse me, but leave this field in blank</label><input type="text" id="_email" class="form-control" name="_email"></div> </form>
+                              <div id="progress" class="progress" style="display: none;">
+                                  <div id="bar" class="progress-bar" role="progressbar" style="width: 0;">
+                                      <span id="percent" class="sr-only">0% Complete</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script src="js/libs/jquery.js"></script><script src="js/libs/signature_pad.umd.js"></script><script src="js/libs/jquery.form.js"></script><script src="js/form.utils.min.js"></script><script src="js/form.resume.min.js"></script><script src="js/form.embed.min.js"></script>
+  
+<!-- End Sewing Project Manager --></div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="tab-7" style="font-size: 14px;font-family: Baskervville, serif;">
+                                    <div class="row">
+                                        <div class="col-auto"><!-- Sewing Project Manager Style-->
+<script>
+    var options = {"id":7,"app":"\/\/sewingprojectmanager\/app\/app","tracker":"js\/form.tracker.js","name":"#form-app","actionUrl":"http:\/\/sewingprojectmanager\/app\/app\/f?id=7","validationUrl":"http:\/\/sewingprojectmanager\/app\/app\/check?id=7","_csrf":"d9cCPqEHYUIJVfYvPakHfH0RmNYDapqc03NJVDR_WksyoTVwxn0jD1Mst0l85GwrNVn85E5YyPqGShg6d0kuMQ==","resume":1,"text_direction":"ltr","autocomplete":1,"novalidate":0,"analytics":1,"confirmationType":0,"confirmationMessage":false,"confirmationUrl":"","confirmationSeconds":null,"confirmationAppend":0,"confirmationAlias":0,"showOnlyMessage":1,"redirectToUrl":2,"rules":[],"fieldIds":["text_1","button_1"],"submitted":false,"runOppositeActions":true,"skips":[],"reCaptchaVersion":"2","reCaptchaSiteKey":"your_site_key","defaultValues":false,"i18n":{"complete":"Complete","unexpectedError":"An unexpected error has occurred. Please retry later."}};
+    </script>
+  <div class="container">
+      <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+              <div class="form-view">
+                  <div class="panel panel-default">
+                      <div class="panel-body">
+                          <div class="form-container">
+                              <div id="messages"></div>
+                              <form action="http://sewingprojectmanager/app/app/f?id=7" method="post" enctype="multipart/form-data" accept-charset="UTF-8" id="form-app" class="form-horizontal">
+  <fieldset class="row">
+  
+  <!-- Heading -->
+  <div class="col-xs-12">
+      <h3 class="legend">Style</h3>
+  </div>
+  
+  <!-- Paragraph Text -->
+  <div class="col-xs-12">
+      <p>What style is the pattern?</p>
+  </div>
+  
+  <!-- Text -->
+  <div class="col-xs-12">
+      <div class="form-group">
+          <label  class="control-label" for="text_1">Styles</label>
+          <input type="text" id="text_1" name="text_1" value="" data-alias="" class="form-control">
+      </div>
+  </div>
+  
+  <!-- Button -->
+  <div class="col-xs-12">
+       <div class="form-action">
+          <button type="submit" id="button_1" name="button_1" class="btn btn-primary">Submit</button>
+      </div>
+  </div>
+  </fieldset>
+  <div class="" style="display:none"><label class="control-label" for="_email">Excuse me, but leave this field in blank</label><input type="text" id="_email" class="form-control" name="_email"></div> </form>
+                              <div id="progress" class="progress" style="display: none;">
+                                  <div id="bar" class="progress-bar" role="progressbar" style="width: 0;">
+                                      <span id="percent" class="sr-only">0% Complete</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script src="js/libs/jquery.js"></script><script src="js/libs/signature_pad.umd.js"></script><script src="js/libs/jquery.form.js"></script><script src="js/form.utils.min.js"></script><script src="js/form.resume.min.js"></script><script src="js/form.embed.min.js"></script>
+  
+<!-- End Sewing Project Manager --></div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="tab-6" style="font-size: 14px;font-family: Baskervville, serif;">
+                                    <div class="row">
+                                        <div class="col-auto"><!-- Sewing Project Manager Status-->
+<style>
+    body { background-color: #EFF3F6; padding: 20px; }
+    .legend { margin-top: 0 }
+    .g-recaptcha { min-height: 78px; }
+    .panel-body { padding: 5px; }
+    .form-container { padding: 20px; border-radius: 0 0 4px 4px; }
+      /*********** Theme Designer **********/
+    </style>
+    <script>
+    var options = {"id":6,"app":"\/\/sewingprojectmanager\/app\/app","tracker":"js\/form.tracker.js","name":"#form-app","actionUrl":"http:\/\/sewingprojectmanager\/app\/app\/f?id=6","validationUrl":"http:\/\/sewingprojectmanager\/app\/app\/check?id=6","_csrf":"sgl3lq53LzSJsE8yamA_ZcjAVD3p-WR_miZOjM2Sn5z3f0DYyQ1tedPJDlQrLVQygIgwD6TLNhnPHx_ijqTr5g==","resume":1,"text_direction":"ltr","autocomplete":1,"novalidate":0,"analytics":1,"confirmationType":0,"confirmationMessage":false,"confirmationUrl":"","confirmationSeconds":null,"confirmationAppend":0,"confirmationAlias":0,"showOnlyMessage":1,"redirectToUrl":2,"rules":[],"fieldIds":["text_1","button_1"],"submitted":false,"runOppositeActions":true,"skips":[],"reCaptchaVersion":"2","reCaptchaSiteKey":"your_site_key","defaultValues":false,"i18n":{"complete":"Complete","unexpectedError":"An unexpected error has occurred. Please retry later."}};
+    </script>
+  <div class="container">
+      <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+              <div class="form-view">
+                  <div class="panel panel-default">
+                      <div class="panel-body">
+                          <div class="form-container">
+                              <div id="messages"></div>
+                              <form action="http://sewingprojectmanager/app/app/f?id=6" method="post" enctype="multipart/form-data" accept-charset="UTF-8" id="form-app" class="form-horizontal">
+  <fieldset class="row">
+  
+  <!-- Heading -->
+  <div class="col-xs-12">
+      <h3 class="legend">Status</h3>
+  </div>
+  
+  <!-- Paragraph Text -->
+  <div class="col-xs-12">
+      <p>What statuses would you assign to various patterns, projects etc.?</p>
+  </div>
+  
+  <!-- Text -->
+  <div class="col-xs-12">
+      <div class="form-group">
+          <label  class="control-label" for="text_1">Status</label>
+          <input type="text" id="text_1" name="text_1" value="" data-alias="" class="form-control">
+      </div>
+  </div>
+  
+  <!-- Button -->
+  <div class="col-xs-12">
+       <div class="form-action">
+          <button type="submit" id="button_1" name="button_1" class="btn btn-primary mt-3">Submit</button>
+      </div>
+  </div>
+  </fieldset>
+  <div class="" style="display:none"><label class="control-label" for="_email">Excuse me, but leave this field in blank</label><input type="text" id="_email" class="form-control" name="_email"></div> </form>
+                              <div id="progress" class="progress" style="display: none;">
+                                  <div id="bar" class="progress-bar" role="progressbar" style="width: 0;">
+                                      <span id="percent" class="sr-only">0% Complete</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script src="js/libs/jquery.js"></script><script src="js/libs/signature_pad.umd.js"></script><script src="js/libs/jquery.form.js"></script><script src="js/form.utils.min.js"></script><script src="js/form.resume.min.js"></script><script src="js/form.embed.min.js"></script>
+  
+<!-- End Sewing Project Manager --></div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="tab-5" style="font-size: 14px;font-family: Baskervville, serif;">
+                                    <div class="row">
+                                        <div class="col-auto"><!-- Sewing Project Manager Size-->
+<style>
+    body { background-color: #EFF3F6; padding: 20px; }
+    .legend { margin-top: 0 }
+    .g-recaptcha { min-height: 78px; }
+    .panel-body { padding: 5px; }
+    .form-container { padding: 20px; border-radius: 0 0 4px 4px; }
+      /*********** Theme Designer **********/
+  
+    </style>
+    <script>
+    var options = {"id":5,"app":"\/\/sewingprojectmanager\/app\/app","tracker":"js\/form.tracker.js","name":"#form-app","actionUrl":"http:\/\/sewingprojectmanager\/app\/app\/f?id=5","validationUrl":"http:\/\/sewingprojectmanager\/app\/app\/check?id=5","_csrf":"BVzxsmoobuZ14PZWDn27m4tjcsBwJrmo1rV1F9VnruBAKsb8DVIsqy-ZtzBPMNDMwysW8j0U686DjCR5llHamg==","resume":1,"text_direction":"ltr","autocomplete":1,"novalidate":0,"analytics":1,"confirmationType":0,"confirmationMessage":false,"confirmationUrl":"","confirmationSeconds":null,"confirmationAppend":0,"confirmationAlias":0,"showOnlyMessage":1,"redirectToUrl":2,"rules":[],"fieldIds":["text_1","button_1"],"submitted":false,"runOppositeActions":true,"skips":[],"reCaptchaVersion":"2","reCaptchaSiteKey":"your_site_key","defaultValues":false,"i18n":{"complete":"Complete","unexpectedError":"An unexpected error has occurred. Please retry later."}};
+    </script>
+  </head>
+  <body>
+  <div class="container">
+      <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+              <div class="form-view">
+                  <div class="panel panel-default">
+                      <div class="panel-body">
+                          <div class="form-container">
+                              <div id="messages"></div>
+                              <form action="http://sewingprojectmanager/app/app/f?id=5" method="post" enctype="multipart/form-data" accept-charset="UTF-8" id="form-app" class="form-horizontal">
+  <fieldset class="row">
+  
+  <!-- Heading -->
+  <div class="col-xs-12">
+      <h3 class="legend">Size</h3>
+  </div>
+  
+  <!-- Paragraph Text -->
+  <div class="col-xs-12">
+      <p>What size is that pattern?</p>
+  </div>
+  
+  <!-- Text -->
+  <div class="col-xs-12">
+      <div class="form-group">
+          <label  class="control-label" for="text_1">Sizes</label>
+          <input type="text" id="text_1" name="text_1" value="" data-alias="" class="form-control">
+      </div>
+  </div>
+  
+  <!-- Button -->
+  <div class="col-xs-12">
+       <div class="form-action">
+          <button type="submit" id="button_1" name="button_1" class="btn btn-primary mt-3">Submit</button>
+      </div>
+  </div>
+  </fieldset>
+  <div class="" style="display:none"><label class="control-label" for="_email">Excuse me, but leave this field in blank</label><input type="text" id="_email" class="form-control" name="_email"></div> </form>
+                              <div id="progress" class="progress" style="display: none;">
+                                  <div id="bar" class="progress-bar" role="progressbar" style="width: 0;">
+                                      <span id="percent" class="sr-only">0% Complete</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script src="js/libs/jquery.js"></script><script src="js/libs/signature_pad.umd.js"></script><script src="js/libs/jquery.form.js"></script><script src="js/form.utils.min.js"></script><script src="js/form.resume.min.js"></script><script src="js/form.embed.min.js"></script>
+
+<!-- End Sewing Project Manager --></div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="tab-4" style="font-size: 14px;font-family: Baskervville, serif;">
+                                    <div class="row">
+                                        <div class="col-auto"><!-- Sewing Project Manager Location -->
+<style>
+    body { background-color: #EFF3F6; padding: 20px; }
+    .legend { margin-top: 0 }
+    .g-recaptcha { min-height: 78px; }
+    .panel-body { padding: 5px; }
+    .form-container { padding: 20px; border-radius: 0 0 4px 4px; }
+      /*********** Theme Designer **********/
+  
+    </style>
+    <script>
+    var options = {"id":4,"app":"\/\/sewingprojectmanager\/app\/app","tracker":"js\/form.tracker.js","name":"#form-app","actionUrl":"http:\/\/sewingprojectmanager\/app\/app\/f?id=4","validationUrl":"http:\/\/sewingprojectmanager\/app\/app\/check?id=4","_csrf":"Wd1Ly8C8wiFVsNvNWqxmEZnK0wFW8ijXd5H4iIFuHJMcq3yFp8aAbA_Jmqsb4Q1G0YK3MxvAerEiqKnmwlho6Q==","resume":1,"text_direction":"ltr","autocomplete":1,"novalidate":0,"analytics":1,"confirmationType":0,"confirmationMessage":false,"confirmationUrl":"","confirmationSeconds":null,"confirmationAppend":0,"confirmationAlias":0,"showOnlyMessage":1,"redirectToUrl":2,"rules":[],"fieldIds":["text_1","button_1"],"submitted":false,"runOppositeActions":true,"skips":[],"reCaptchaVersion":"2","reCaptchaSiteKey":"your_site_key","defaultValues":false,"i18n":{"complete":"Complete","unexpectedError":"An unexpected error has occurred. Please retry later."}};
+    </script>
+  </head>
+  <body>
+  <div class="container">
+      <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+              <div class="form-view">
+                  <div class="panel panel-default">
+                      <div class="panel-body">
+                          <div class="form-container">
+                              <div id="messages"></div>
+                              <form action="http://sewingprojectmanager/app/app/f?id=4" method="post" enctype="multipart/form-data" accept-charset="UTF-8" id="form-app" class="form-horizontal">
+  <fieldset class="row">
+  
+  <!-- Heading -->
+  <div class="col-xs-12">
+      <h3 class="legend">Location</h3>
+  </div>
+  
+  <!-- Paragraph Text -->
+  <div class="col-xs-12">
+      <p>Where did you last put that item? Where is it normally stored?</p>
+  </div>
+  
+  <!-- Text -->
+  <div class="col-xs-12">
+      <div class="form-group">
+          <label  class="control-label" for="text_1">Location</label>
+          <input type="text" id="text_1" name="text_1" value="" data-alias="" class="form-control">
+      </div>
+  </div>
+  
+  <!-- Button -->
+  <div class="col-xs-12">
+       <div class="form-action">
+          <button type="submit" id="button_1" name="button_1" class="btn btn-primary mt-3">Submit</button>
+      </div>
+  </div>
+  </fieldset>
+  <div class="" style="display:none"><label class="control-label" for="_email">Excuse me, but leave this field in blank</label><input type="text" id="_email" class="form-control" name="_email"></div> </form>
+                              <div id="progress" class="progress" style="display: none;">
+                                  <div id="bar" class="progress-bar" role="progressbar" style="width: 0;">
+                                      <span id="percent" class="sr-only">0% Complete</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script src="js/libs/jquery.js"></script><script src="js/libs/signature_pad.umd.js"></script><script src="js/libs/jquery.form.js"></script><script src="js/form.utils.min.js"></script><script src="js/form.resume.min.js"></script><script src="js/form.embed.min.js"></script>
+  </body>
+<!-- End Sewing Project Manager --></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Start: Footer Basic -->
+        <footer class="footer-basic" style="font-family: Baskervville, serif;background: #eff3f6;">
+            <!-- Start: Social Icons -->
+            <div class="social" style="font-size: 9px;"><a href="https://twitter.com/suedarby" style="font-size: 6px;"><i class="icon ion-social-twitter" style="font-size: 12px;"></i></a></div><!-- End: Social Icons -->
+            <!-- Start: Links -->
+            <ul class="list-inline" style="font-size: 12px;">
+                <li class="list-inline-item"><a href="/index.html">Home</a></li>
+                <li class="list-inline-item"><a href="/index.html#tab-2">News</a></li>
+                <li class="list-inline-item"><a href="/index.html#tab-3">About</a></li>
+                <li class="list-inline-item"><a href="/privacy.html">Terms</a></li>
+                <li class="list-inline-item"><a href="/privacy.html">Privacy Policy</a></li>
+            </ul><!-- End: Links -->
+            <!-- Start: Copyright -->
+            <p class="copyright" style="font-size: 10px;">Sue Darby © 2021</p><!-- End: Copyright -->
+        </footer><!-- End: Footer Basic -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/jquery.tablesorter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-filter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/Logged-in-Sidebar.js?h=0b5112c06ff3094624f33df374e70be1"></script>
+</body>
+
+</html>

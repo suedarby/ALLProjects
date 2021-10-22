@@ -1,0 +1,14 @@
+welcome
+first page user comes to after login success
+sets up logged in template
+
+Fabric
+Fabric shows 3 items links to dash of supply i.e. patterns with link to fabric dash where there is a CRUD, search, pagination & filter interface
+Notions
+Notions shows 3 items links to dash of supply i.e. patterns
+Patterns
+Patterns shows 3 items links to dash of supply i.e. patterns
+Trims
+Trims shows 3 items links to dash of supply i.e. patterns
+Tools
+Tools 4 shows 3 items links to dash of supply i.e. patterns

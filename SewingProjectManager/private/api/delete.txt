@@ -1,0 +1,2 @@
+delete
+oop with confirmation of do you want to delete ___?

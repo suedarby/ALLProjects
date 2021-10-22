@@ -1,0 +1,2 @@
+footer
+footer of pages including copyright, home, contact link and sitemap link

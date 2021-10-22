@@ -1,0 +1,4 @@
+project
+dash shows 1-2 from each table just names of pattern fabric etc
+SHOW page shows everything available for the project and allows update & save
+same layout for new page as show page using drop downs for lists of items and multi select for category location tags etc

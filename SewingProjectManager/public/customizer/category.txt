@@ -1,0 +1,3 @@
+category
+drop down of categories 
+start with my own and expand later or move to private area and allow editing of tags

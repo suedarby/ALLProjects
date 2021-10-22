@@ -1,0 +1,3 @@
+news
+feeds from wordpress sites including photos, project, goals and SAD
+twitter feed

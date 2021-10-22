@@ -1,0 +1,3 @@
+brand
+short list of basic brands 
+allow added items

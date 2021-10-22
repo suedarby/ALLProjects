@@ -1,0 +1,4 @@
+SewingProjectManager
+determine requirements in a requirements document for each page
+build tests for test driven development writing out each test and tracking results
+Result charts are on Lady Code Monkey(?) or Learning(?) using Angular to display data

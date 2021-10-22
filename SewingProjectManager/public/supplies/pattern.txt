@@ -1,0 +1,7 @@
+pattern
+full CRUD
+has image of pattern pulled from photos
+filters
+search
+10 per pg on dash
+all fields in table

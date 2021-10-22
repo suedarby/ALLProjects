@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Brands</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baskervville" rel="stylesheet">
+  <link href="css/public.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baskervville&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville&amp;display=swap">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="/assets/fonts/fontawesome5-overrides.min.css?h=34f9b351b7076f97babcdac3c1081100">
+  <link rel="stylesheet" href="/assets/css/styles.min.css?h=f963c4902c797e68d33c25d22f6897b9">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.bootstrap_4.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <style>
+  body { background-color: #EFF3F6; padding: 20px; }
+  .legend { margin-top: 0 }
+  .g-recaptcha { min-height: 78px; }
+  .panel-body { padding: 5px; }
+  .form-container { padding: 20px; border-radius: 0 0 4px 4px; }
+    /*********** Theme Designer **********/
+.form-container {
+  font-family: Baskervville;
+}
+  </style>
+  <script>
+  var options = {"id":1,"app":"\/\/sewingprojectmanager\/app\/app","tracker":"js\/form.tracker.js","name":"#form-app","actionUrl":"http:\/\/sewingprojectmanager\/app\/app\/f?id=1","validationUrl":"http:\/\/sewingprojectmanager\/app\/app\/check?id=1","_csrf":"i69UHWY72xeCfnowCanVfgqmjqfhvrND-AlrsS6ctYPYnD4wAGyEOrVHTGQ-n5E6WtW70dD7w3a0PQ_la82Etw==","resume":1,"text_direction":"ltr","autocomplete":1,"novalidate":0,"analytics":0,"confirmationType":0,"confirmationMessage":false,"confirmationUrl":"","confirmationSeconds":null,"confirmationAppend":0,"confirmationAlias":0,"showOnlyMessage":1,"redirectToUrl":2,"rules":[],"fieldIds":["text_1","text_2","button_1","button_2"],"submitted":false,"runOppositeActions":true,"skips":[],"reCaptchaVersion":"2","reCaptchaSiteKey":"your_site_key","defaultValues":false,"i18n":{"complete":"Complete","unexpectedError":"An unexpected error has occurred. Please retry later."}};
+  </script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+    <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+            <div class="form-view">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <a href="http://sewingprojectmanager/app/" title="&lt;p&gt;Welcome to &lt;span style=&quot;color:#c9d2db;&quot;&gt; the easiest way &lt;/span&gt; to build, design and manage &lt;span style=&quot;color:#e8ebef;font-weight:bold;&quot;&gt; your online forms&lt;/span&gt;.&lt;/p&gt;" style="text-decoration:none">
+                                <span class="app-name">Sewing Project Manager</span></a>
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-container">
+                            <div id="messages"></div>
+                            <form action="http://sewingprojectmanager/app/app/f?id=1" method="post" enctype="multipart/form-data" accept-charset="UTF-8" id="form-app" class="form-horizontal">
+<fieldset class="row">
+
+<!-- Heading -->
+<div class="col-xs-12">
+    <h3 class="legend">Brands</h3>
+</div>
+
+<!-- Paragraph Text -->
+<div class="col-xs-12">
+    <p>Add your favorite pattern and embroidery thread brands and urls!</p>
+</div>
+
+<!-- Text -->
+<div class="col-xs-12">
+    <div class="form-group">
+        <label  class="control-label" for="text_1">Brand</label>
+        <input type="text" id="text_1" name="text_1" value="" data-alias="" class="form-control">
+    </div>
+</div>
+
+<!-- Text -->
+<div class="col-xs-12">
+    <div class="form-group">
+        <label  class="control-label" for="text_2">URL</label>
+        <input type="url" id="text_2" name="text_2" value="" data-alias="" class="form-control">
+    </div>
+</div>
+
+<!-- Button -->
+<div class="col-xs-12">
+     <div class="form-action">
+        <button type="submit" id="button_1" name="button_1" class="btn btn-primary">Submit</button>
+    </div>
+</div>
+<!-- Button -->
+<div class="col-xs-12">
+     <div class="form-action">
+        <button type="button" id="button_2" name="button_2" class="btn btn-primary">Update</button>
+    </div>
+</div>
+</fieldset>
+</form>
+                            <div id="progress" class="progress" style="display: none;">
+                                <div id="bar" class="progress-bar" role="progressbar" style="width: 0;">
+                                    <span id="percent" class="sr-only">0% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/libs/jquery.js"></script><script src="js/libs/signature_pad.umd.js"></script><script src="js/libs/jquery.form.js"></script><script src="js/form.utils.min.js"></script><script src="js/form.resume.min.js"></script><script src="js/form.embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/jquery.tablesorter.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-filter.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/script.min.js?h=5cbffdc4b27aa58ed083f95c52d57db1"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

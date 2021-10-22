@@ -1,0 +1,7 @@
+Learning
+Hook to a database and have each job, skills achievement, education inc certificates from google photos etc be retrieved from the database.
+Form for data entry.
+Contact form goes to a contacts table.
+News pulls a feed from SAD, Goals etc
+Projects both has feed from Projects and has db Projects
+What do database tables look like for this site?

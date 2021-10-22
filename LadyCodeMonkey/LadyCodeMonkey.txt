@@ -1,0 +1,8 @@
+LadyCodeMonkey
+focus is on sharing sample pages
+-a contact form (attached to a database)
+-landing page with embedded video
+-local storage to do list
+-technical documentation example (NOT the CC) needs a new idea
+-slider with javascript/jquery with photos hosted from google 
+ photos using the API

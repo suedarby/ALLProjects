@@ -1,14 +1,14 @@
 body {
-font-size: 10pt;
+font-size: 8pt;
 background: #e9ecef;
 }
 .h1, h1 {
 font-weight: bold;
-font-family: 'Happy Monkey', cursive;
+font-family: 'Libre Baskerville', cursive;
 }
 
 .h2, h2, .h3, h3, .h4, h4, .h5, h5 {
-    font-family: 'Happy Monkey', cursive;
+    font-family: 'Libre Baskerville', cursive;
 }
 /*header container with site name and logo*/
 .jumbotron {
@@ -87,5 +87,11 @@ width: 100%;
     margin-top: 30px;
 }
 .card-img-top {
-    width: 25rem;
+align-content: center;
+      max-width: 100%;
+  max-height: auto;
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+
 }
